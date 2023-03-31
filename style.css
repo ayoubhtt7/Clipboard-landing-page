@@ -1,21 +1,16 @@
-/* Start Global Rules */
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Bai Jamjuree', sans-serif;
 }
-html {
-    /* scroll-behavior: smooth; */
-}
+
 .container {
     padding-left: 20px;
     padding-right: 20px;
     margin: 0 auto;
 }
-/* End Global Rules */
-
-/* Start Variables */
 :root {
     --Strong-Cyan: hsl(171, 66%, 44%);
     --Light-Blue: hsl(233, 100%, 69%);
@@ -23,7 +18,6 @@ html {
     --Grayish-Blue: hsl(201, 11%, 66%);
 }
 
-/* End Variables */
 
 body {
     background-image: url(../images/bg-header-desktop.png);
@@ -38,9 +32,6 @@ p {
     color: var(--Grayish-Blue);
 }
 
-/* ========================================= 
-Start Header
-=========================================   */
 .header {
     text-align: center;
     margin-top: 130px;
@@ -96,10 +87,6 @@ Start Header
     border-bottom: 3px solid hsl(233, 43%, 49%);
     box-shadow: 0 8px 10px 3px  #6173ff41;
 }
-
-/* ========================================= 
-Start Content
-=========================================   */
 .title {
     text-align: center;
 }
@@ -181,10 +168,6 @@ Start Content
     width: 120px;
 }
 
-
-/* ========================================= 
-Start Footer
-=========================================   */
 .footer {
     background-color: #F5F6F8;
 }
@@ -252,9 +235,6 @@ Start Footer
 
 
 
-
-
-/* ==================================== Media Queries ==================================== */
 
 @media (min-width: 768px) {
     .container {
